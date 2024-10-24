@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #fff5f7;
+    color: #333;
+}
+
+header {
+    background-color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #ddd;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #e91e63;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+}
+
+.nav-links li a:hover {
+    color: #e91e63;
+}
+
+.about-hero {
+    background-image: url('flower-background.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.hero-text {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.4);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.hero-text h1 {
+    font-size: 48px;
+}
+
+.hero-text p {
+    font-size: 20px;
+}
+
+.about-content {
+    padding: 50px;
+    background-color: white;
+}
+
+.about-intro {
+    max-width: 900px;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.about-intro h2 {
+    font-size: 36px;
+    color: #e91e63;
+    margin-bottom: 20px;
+}
+
+.about-intro p {
+    font-size: 18px;
+    color: #555;
+}
+
+.values {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.values h2 {
+    font-size: 32px;
+    color: #e91e63;
+}
+
+.values-grid {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+.value-item {
+    width: 30%;
+    text-align: center;
+}
+
+.value-item img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.value-item h3 {
+    margin-top: 15px;
+    font-size: 22px;
+    color: #333;
+}
+
+.value-item p {
+    margin-top: 10px;
+    color: #555;
+}
+
+.mission {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.mission h2 {
+    font-size: 32px;
+    color: #e91e63;
+    margin-bottom: 20px;
+}
+
+.mission p {
+    max-width: 800px;
+    margin: 0 auto;
+    font-size: 18px;
+    color: #555;
+}
+
+footer {
+    background-color: #e91e63;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 50px;
+}
